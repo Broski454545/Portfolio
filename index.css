@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    background-color: rgb(6, 103, 223);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+header>nav>a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+main>div>h2 {
+    text-align: center;
+    padding: 3px 0 0 0;
+    animation: anim linear;
+    animation-timeline:view();
+    animation-range:entry 0 cover 40%;
+}
+
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    animation: anim linear;
+    animation-timeline:view();
+    animation-range:entry 0 cover 40%;
+}
+
+img {
+    height: 200px;
+    display: flex;
+    padding: 0 8px;
+}
+
+.about {
+    display: flex;
+}
+
+.skills-heading {
+    text-align: center;
+    animation: anim linear;
+    animation-timeline:view();
+    animation-range:entry 0 cover 40%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 
+        rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    border: none;
+    animation: anim linear;
+    animation-timeline:view();
+    animation-range:entry 0 cover 40%;
+}
+
+.achievments-heading {
+    text-align: center;
+    animation: anim linear;
+    animation-timeline:view();
+    animation-range:entry 0 cover 40%;
+}
+
+.contact-heading {
+    text-align: center;
+    margin: 5px;
+    animation: anim linear;
+    animation-timeline:view();
+    animation-range:entry 0 cover 40%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+input{
+    width: 500px;
+    height: 25px;
+}
+footer{
+    height:60px;
+    background-color: rgb(6, 103, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    animation: anim linear;
+    animation-timeline:view();
+    animation-range:entry 0 cover 5%;
+}
+@keyframes anim
+{
+    from{
+        transform:translate(-50px);
+        opacity: 0;
+    }
+}
